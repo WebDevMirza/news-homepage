@@ -1,0 +1,36 @@
+.new {
+  background-color: var(--VeryDarkBlue);
+  color: var(--Grayishblue);
+  padding: 1.325rem;
+}
+
+.new h1 {
+  color: var(--SoftOrange);
+  margin-top: 0;
+  font-size: 2.25rem;
+}
+
+.new a {
+  color: var(--Off-white);
+  transition: all 0.3s ease-in-out;
+}
+
+.new a:hover,
+.new a:focus-visible {
+  color: var(--SoftOrange);
+  transition: all 0.5s ease-in-out;
+}
+
+.hr-line {
+  margin-block: 2rem;
+  background-color: var(--Grayishblue);
+  height: 2px;
+  width: 100%;
+  opacity: 0.3;
+}
+
+@media (min-width: 1024px) {
+  .hr-line {
+    margin-block: 1rem;
+  }
+}
